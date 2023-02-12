@@ -14,7 +14,7 @@ void PrintArray(int[,,] array)
 {
     for (int i = 0; i < 4; i++)
     {
-        for (int j = 0; j < 4; j++) 
+        for (int j = 0; j < 4; j++)
         {
             for (int l = 0; l < 4; l++)
             {
@@ -22,7 +22,6 @@ void PrintArray(int[,,] array)
             }
         }
     }
-
 }
 
 void FillArray(int[,,] array)
@@ -38,6 +37,5 @@ void FillArray(int[,,] array)
                 array[i, j, l] = count;
             }
         }
-
     }
 }
